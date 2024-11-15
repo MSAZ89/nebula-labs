@@ -141,17 +141,18 @@
 	<div class="relative z-10 flex flex-col items-center justify-center">
 		<h2 class="mb-8 text-4xl font-semibold">Our Promise</h2>
 		<p class="mx-auto mb-12 max-w-3xl text-lg">
-			At <strong>Nebula Farms</strong>, we are committed to revolutionizing the agricultural
-			industry through innovation and technology. Our promise is to provide you with sustainable,
-			efficient, and scalable solutions that harness the power of immersive VR/AR technologies. From
-			precision farming to virtual training and real-time operational insights, we are dedicated to
-			enhancing every aspect of your farm's operations.
+			At <strong>Nebula Labs</strong>, our promise is to empower businesses with innovative VR/AR
+			solutions that transform industries. We are dedicated to pushing the boundaries of technology
+			to deliver immersive experiences that drive efficiency, enhance engagement, and foster growth.
+			Whether it's through custom virtual environments, interactive training modules, or advanced
+			remote collaboration tools, our team is committed to bringing your business into the future.
 		</p>
 		<p class="mx-auto mb-12 max-w-3xl text-lg">
-			We believe in empowering farmers with the tools they need to thrive in a rapidly changing
-			world. With our tailored virtual solutions, we enable better decision-making, increase
-			productivity, and reduce environmental impact—paving the way for a smarter, greener future. At
-			Nebula Farms, we don’t just adapt to the future of agriculture; we help you shape it.
+			We believe in the power of immersive technology to shape the way we work, learn, and interact.
+			Our goal is to help you harness the full potential of VR/AR to solve real-world challenges,
+			enhance decision-making, and improve user experiences. At Nebula Labs, we don’t just provide
+			solutions—we partner with you to create a lasting impact on your business, guiding you every
+			step of the way toward a smarter, more connected future.
 		</p>
 
 		<BasicButton href="/contact" text="Contact Nebula" />

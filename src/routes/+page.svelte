@@ -1,6 +1,7 @@
 <script>
 	import PageInner from '$lib/components/pageInner.svelte';
 	import BasicButton from '$lib/components/BasicButton.svelte';
+	import ServicesSection from '$lib/components/ServicesSection.svelte';
 </script>
 
 <div
@@ -42,70 +43,7 @@
 		<BasicButton href="#services" text="Services" />
 	</section>
 </div>
-<div
-	id="services"
-	style="background-image: url('https://plus.unsplash.com/premium_photo-1663100703769-61c87c264693?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"
-	class="relative flex min-h-screen flex-col items-center justify-center bg-fixed bg-center text-white before:absolute before:inset-0 before:bg-black before:opacity-80"
->
-	<div
-		class="relative z-10 flex flex-col items-center justify-center px-6 py-12 text-center lg:mx-64"
-	>
-		<h2 class="mb-8 text-4xl font-semibold">Our Services</h2>
-		<p class="mx-auto mb-12 max-w-3xl text-lg">
-			We provide innovative solutions that empower businesses to stay ahead with cutting-edge VR/AR
-			technologies. Explore our services and discover how we can help transform your operations.
-		</p>
-
-		<div class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-3">
-			<!-- Service Card 1 -->
-			<div
-				class="service-card rounded-lg bg-purple-600 p-8 text-white shadow-lg transition-all hover:shadow-xl"
-			>
-				<h3 class="mb-4 text-2xl font-semibold">VR/AR Strategy Development</h3>
-				<p>
-					Consulting for businesses looking to integrate immersive technology into their operations.
-					We help you build the right strategy for your needs.
-				</p>
-			</div>
-
-			<!-- Service Card 2 -->
-			<div
-				class="service-card rounded-lg bg-purple-600 p-8 text-white shadow-lg transition-all hover:shadow-xl"
-			>
-				<h3 class="mb-4 text-2xl font-semibold">Custom VR/AR Solutions</h3>
-				<p>
-					Tailored virtual environments and applications designed to meet your specific business
-					needs, enhancing productivity and user experience.
-				</p>
-			</div>
-
-			<!-- Service Card 3 -->
-			<div
-				class="service-card rounded-lg bg-purple-600 p-8 text-white shadow-lg transition-all hover:shadow-xl"
-			>
-				<h3 class="mb-4 text-2xl font-semibold">Training & Support</h3>
-				<p>
-					Expert training and ongoing support to ensure seamless adoption and effective use of VR/AR
-					technology within your team or business.
-				</p>
-			</div>
-
-			<!-- Service Card 4 -->
-			<div
-				class="service-card rounded-lg bg-purple-600 p-8 text-white shadow-lg transition-all hover:shadow-xl"
-			>
-				<h3 class="mb-4 text-2xl font-semibold">Innovation Labs</h3>
-				<p>
-					Stay ahead of the curve with regular updates and insights into emerging immersive
-					technologies, helping your business explore new possibilities.
-				</p>
-			</div>
-		</div>
-
-		<!-- Button -->
-		<BasicButton href="#why" text="Why Choose Us" />
-	</div>
-</div>
+<ServicesSection />
 <div id="why" class="flex min-h-screen flex-col items-center justify-center bg-black text-white">
 	<section
 		id="Why Choose Us"

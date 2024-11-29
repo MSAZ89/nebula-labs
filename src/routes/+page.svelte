@@ -20,7 +20,7 @@
 >
 	<section
 		id="About Nebula Labs"
-		class="flex h-screen flex-col items-center justify-center bg-black text-white"
+		class="flex min-h-screen flex-col items-center justify-center bg-black text-white"
 	>
 		<div class="max-w-4xl border-b border-t border-white px-6 py-12">
 			<h2 class="mb-6 text-4xl font-bold">About Nebula Labs</h2>
@@ -44,10 +44,13 @@
 	</section>
 </div>
 <ServicesSection />
-<div id="why" class="flex min-h-screen flex-col items-center justify-center bg-black text-white">
+<div
+	id="why"
+	class="mb-12 flex min-h-screen flex-col items-center justify-center bg-black text-white lg:mb-0"
+>
 	<section
 		id="Why Choose Us"
-		class="flex h-screen flex-col items-center justify-center bg-black text-white"
+		class="flex min-h-screen flex-col items-center justify-center bg-black text-white"
 	>
 		<div class="max-w-4xl border-b border-t border-white px-6 py-12">
 			<h2 class="mb-6 text-4xl font-bold">Why Choose Us</h2>
@@ -76,8 +79,8 @@
 	style="background-image: url('https://plus.unsplash.com/premium_photo-1663054535424-8fa9da1e9724?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"
 	class="relative flex min-h-screen flex-col items-center justify-center bg-fixed bg-center text-white before:absolute before:inset-0 before:bg-black before:opacity-80"
 >
-	<div class="relative z-10 flex flex-col items-center justify-center">
-		<h2 class="mb-8 text-4xl font-semibold">Our Promise</h2>
+	<div class="relative z-10 mb-12 flex flex-col items-center justify-center px-6 lg:mb-0">
+		<h2 class="mb-8 mt-12 text-4xl font-semibold lg:mt-0">Our Promise</h2>
 		<p class="mx-auto mb-12 max-w-3xl text-lg">
 			At <strong>Nebula Labs</strong>, our promise is to empower businesses with innovative VR/AR
 			solutions that transform industries. We are dedicated to pushing the boundaries of technology
